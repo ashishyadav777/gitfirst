@@ -1,0 +1,74 @@
+*{
+    font-family: sans-serif;
+}
+
+
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+
+  section {
+    text-align: start;
+  }
+
+
+  .buttons {
+    background-color: skyblue;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+  }
+
+  .example {
+    border-radius: 5px;
+  }
+  .example:hover {
+    border-color: rgb(1, 183, 254);
+    
+  }
+  
+
+  #note_bacon {
+    color: rgb(140, 254, 9);
+    padding-left:135px ;
+}
+
+#note_eggs {
+    color: rgb(140, 254, 9);
+    padding-left:145px;
+}
+
+#note_milk {
+    color: rgb(140, 254, 9);
+    padding-left:152px ;
+}
+
+#delete_items {
+    color: rgb(209, 16, 16);
+    
+}
+
+.btn {
+    border: none;
+    color: red;
+    cursor: pointer;
+
+}
+
+.btn_one {
+  cursor: pointer;
+}
